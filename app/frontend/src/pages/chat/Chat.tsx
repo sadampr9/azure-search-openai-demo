@@ -496,7 +496,7 @@ const Chat = () => {
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
-                            placeholder={t("defaultExamples.placeholder")}
+                            placeholder="Escribe una nueva pregunta por ejemplo: ¿Qué diferencia hay entre SAC y EIRL?"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                             showSpeechInput={showSpeechInput}
